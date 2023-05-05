@@ -1,0 +1,31 @@
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+*:focus {
+    outline: none !important;
+  }
+  
+
+a{
+    text-decoration: none;
+    color: $primary-text-color;
+}
+
+a:focus{
+    outline: none !important;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/NeueHaasDisplayMediu.ttf");
+}
+
+body{
+ font-family: "Open Sans", sans-serif !important;
+}

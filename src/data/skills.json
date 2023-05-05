@@ -1,0 +1,32 @@
+{
+    "api-design": {
+        "name": "API Design & Integration",
+        "icon": "faCodeCompare",
+        "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, qui."
+    },
+    "database-mgt": {
+        "name": "Database Design & Management",
+        "icon": "faDatabase",
+        "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, qui."
+    },
+    "software-design": {
+        "name": "Software Architecture Design",
+        "icon": "faDesktop",
+        "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, qui."
+    },
+    "server-mgt": {
+        "name": "Server code maintenance",
+        "icon": "faServer",
+        "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, qui."
+    },
+    "cloud-service": {
+        "name": "Cloud Services Management",
+        "icon": "faCloud",
+        "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, qui."
+    },
+    "web-design": {
+        "name": "Web Design",
+        "icon": "faPenRuler",
+        "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, qui."
+    }
+}
