@@ -1,24 +1,41 @@
 $primary-text-color: #000;
 $primary-bg-color: #fff;
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-*:focus {
-    outline: none !important;
-  }
-  
+html{
+    overflow-x: hidden;
+}
 
-a{
+a {
     text-decoration: none;
     color: $primary-text-color;
 }
 
-a:focus{
-    outline: none !important;
+
+a,
+button {
+    // Set outline to none by default
+    outline: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    -webkit-tap-highlight-color: transparent;
+
+    // Add focus styles
+    &:focus-visible {
+        outline: 2px solid $primary-text-color;
+    }
+
+    &:active {
+        background-color: $primary-bg-color;
+        border-radius: 50%;
+    }
 }
 
 @font-face {
@@ -26,6 +43,28 @@ a:focus{
     src: url("../fonts/NeueHaasDisplayMediu.ttf");
 }
 
-body{
- font-family: "Open Sans", sans-serif !important;
+@font-face {
+    font-family: "Paragraph Sans";
+    src: url("../fonts/NeueHaasDisplayRoman.ttf");
+}
+
+@font-face {
+    font-family: "Sans";
+    src: url("../fonts/MinionPro-Medium.otf");
+}
+
+@font-face {
+    font-family: "Regular Sans";
+    src: url("../fonts/MinionPro-Regular.otf");
+}
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 2rem 0;
 }

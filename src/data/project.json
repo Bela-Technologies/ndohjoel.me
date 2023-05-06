@@ -29,8 +29,8 @@
             "Software Engineer"
         ],
         "url": "https://marist-pedia.netlify.app/",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683137593/portfolio/marist-pedia-preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683137589/portfolio/marist-pedia-home-preview.gif",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683380938/portfolio/3_1_nszwjm.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683380938/portfolio/3_1_nszwjm.png",
         "demo": {
             "video": "https://www.youtube.com/watch?v=Bhr1gOwwPy8"
         },
@@ -99,7 +99,7 @@
     },
     "ban-qu": {
         "name": "半区",
-        "duration": "Dec. 2021 - August 2021",
+        "duration": "Dec. 2021 - August 2022",
         "type": "Real-world",
         "skill": "Mobile Application",
         "role": [
@@ -122,7 +122,7 @@
     },
     "billings": {
         "name": "Billings",
-        "duration": "August 2021 - April 2021",
+        "duration": "August 2021 - April 2022",
         "type": "Real-world",
         "skill": "Mobile Application",
         "role": [
@@ -142,12 +142,12 @@
         "type": "Real-world",
         "skill": "Mobile Application",
         "role": [
-            "Backend Engineer",
-            "Cloud Engineer"
+            "Lead Backend Engineer",
+            "Lead Cloud Engineer"
         ],
         "url": "https://play.google.com/store/apps/details?id=com.lcufeeding.springbok",
         "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683181132/portfolio/lcu-feeding-preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683212431/portfolio/lcu-home-preview.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683360406/portfolio/lcu-home-preview.png",
         "demo": {
             "video": "https://youtu.be/LAhbDPYEOhI"
         },

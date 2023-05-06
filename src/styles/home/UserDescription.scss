@@ -1,0 +1,139 @@
+$highligh-color: rgb(220, 219, 219);
+$hover-color: rgb(170, 170, 170);
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+
+@mixin sm-mobile {
+    @media screen and (max-width: 376px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin sm-tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lg-tablet {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin lg-laptop {
+    @media screen and (min-width: 1201px) {
+        @content;
+    }
+}
+
+.container {
+    width: 100%;
+
+    .container-wrapper {
+        padding: 4vw;
+        width: 100%;
+        box-sizing: border-box;
+
+        @include sm-tablet() {
+            padding: 6vw;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .content-header {
+                display: flex;
+                flex-wrap: nowrap;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+
+                .content-header-title {
+                    .content-header-title-wrapper {
+                        text-align: center;
+                        white-space: pre-wrap;
+                        font-size: calc((6.5 - 1) * 1.2vw + 1rem);
+                        line-height: calc(1.4 * (1 + (1 - 6.5)/25));
+
+                        h1 {
+                            text-align: center;
+                            word-wrap: break-word;
+
+                        }
+                        
+                        @include sm-mobile(){
+                            font-size: calc((4.0 - 1) * 1.2vw + 1rem);
+                            line-height: calc(0.9 * (1 + (1 - 6.5)/25));
+                        }
+                    }
+                }
+
+                .content-header-link {
+                    .content-header-link-wrapper {
+                        font-family: "Regular Sans";
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+                        color: $highligh-color;
+
+                        @include sm-mobile(){
+                            font-size: calc((2 - 1) * 1.2vw + 1rem);
+                        }
+
+                        a {
+                            position: relative;
+
+                            &:hover {
+                                color: $hover-color;
+
+                                &::after {
+                                    width: 100%;
+                                    transition: width 0.5s ease-in-out;
+                                }
+                            }
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                bottom: -2px;
+                                left: 0;
+                                width: 0%;
+                                height: 2px;
+                                background-color: $hover-color;
+                                transition: width 0.5s ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .content-body{
+                .content-body-wrapper{
+                    font-family: "Paragraph Sans";
+                    font-size: 2em;
+
+
+                    @include sm-tablet(){
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+
+    }
+}

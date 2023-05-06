@@ -1,0 +1,71 @@
+$highligh-color: rgb(220, 219, 219);
+$hover-color: rgb(170, 170, 170);
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+
+@mixin sm-mobile {
+    @media screen and (max-width: 376px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin sm-tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lg-tablet {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin lg-laptop {
+    @media screen and (min-width: 1201px) {
+        @content;
+    }
+}
+
+.container {
+    width: 100%;
+
+    .container-wrapper {
+        padding: 4vw;
+        width: 100%;
+        box-sizing: border-box;
+
+        .css-t41jwm{
+            justify-content: space-around;
+        }
+
+        .flex-cards {
+            display: flex;
+            justify-content: center;
+
+            .css-18j379d{
+                margin: 0;
+            }
+
+            .css-0{
+                font-family: "Paragraph Sans";
+
+                @include mobile(){
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
 } from "@chakra-ui/react";
-import "../src/styles/SideBar.scss";
+import "../../src/styles/header/SideBar.scss";
 
 // eslint-disable-next-line react/prop-types
 function SideBar({ isOpen, onClose, btnRef }) {

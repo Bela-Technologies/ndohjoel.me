@@ -1,0 +1,96 @@
+$highligh-color: rgb(220, 219, 219);
+$hover-color: rgb(170, 170, 170);
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+
+@mixin sm-mobile {
+    @media screen and (max-width: 376px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin sm-tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lg-tablet {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin lg-laptop {
+    @media screen and (min-width: 1201px) {
+        @content;
+    }
+}
+
+.css-1qvc0pb,
+.css-1anmq07 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: $primary-bg-color !important;
+
+    svg{
+        width: 300px;
+
+        @include lg-tablet(){
+            width: 200px;
+        }
+
+        @include sm-tablet(){
+            width: 150px;
+        }
+
+        @include mobile(){
+            width: 70px;
+        }
+
+    }
+
+    .my-info{
+        display: flex;
+        flex-direction: column;
+
+        h5{
+            font-family: "Regular Sans";
+            // font-size: small;
+            // margin: 0;
+
+            @include mobile(){
+                font-size: .85rem;
+            }
+
+            a{
+                padding: 0;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+
+        a{
+            width: auto;
+        }
+        
+    }
+}
