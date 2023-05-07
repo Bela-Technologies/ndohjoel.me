@@ -15,7 +15,7 @@ function SampleProjectsHeader() {
           </div>
           <div className="content-header-link">
             <div className="content-header-link-wrapper">
-              <a href="" className="content-header-link-btn">
+              <a href="/projects" className="content-header-link-btn">
                 see more ...
               </a>
             </div>

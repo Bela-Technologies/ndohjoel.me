@@ -1,0 +1,137 @@
+$highligh-color: rgb(220, 219, 219);
+$hover-color: rgb(170, 170, 170);
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+
+@mixin sm-mobile {
+    @media screen and (max-width: 376px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin sm-tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lg-tablet {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin lg-laptop {
+    @media screen and (min-width: 1201px) {
+        @content;
+    }
+}
+
+.container {
+    width: 100%;
+
+    .container-wrapper {
+        padding: 4vw;
+        width: 100%;
+        box-sizing: border-box;
+
+        .about-me {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+
+            .css-umsd53 {
+                border-width: 0px;
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .css-n21gh5 {
+                display: flex;
+                align-items: center;
+            }
+
+            .css-1581ml6 {
+                @include mobile() {
+                    flex: 1
+                }
+            }
+
+            .css-w58jfd {
+                border-width: 0px;
+            }
+
+            
+            a {
+                text-align: center;
+                padding: 0;
+                border-bottom: 2px solid black;
+                border-radius: 0px;
+            }
+
+
+            .css-1idwstw {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: calc((3.2 - 1) * 1.2vw + 1rem);
+                    line-height: calc(1.4 * (1 + (1 - 4.2)/25));
+                    text-align: center;
+                    margin-bottom: .5rem;
+
+                    @include lg-tablet() {
+                        font-size: calc((2.5 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+                        line-height: calc(1.3 * (1 + (1 - 4.2)/25));
+                    }
+
+                    @include sm-tablet() {
+                        font-size: calc((3.2 - 1) * 1.2vw + 1rem);
+                        line-height: calc(1.4 * (1 + (1 - 6.5)/25));
+                    }
+
+                    @include sm-mobile() {
+                        font-size: calc((2.3 - 1) * 1.2vw + 1rem);
+                        line-height: calc(1.2 * (1 + (1 - 6.5)/25));
+                    }
+                }
+
+                h4 {
+                    font-family: "Paragraph Sans";
+                    text-align: center;
+
+                    @include lg-tablet() {
+                        font-size: 1.2rem;
+                    }
+
+                    @include mobile() {
+                        font-size: 1rem;
+                    }
+
+                    @include sm-mobile() {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
+}

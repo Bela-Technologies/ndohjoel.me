@@ -32,6 +32,22 @@ $primary-bg-color: #fff;
   }
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+
+  .header-border{
+    padding: 2vw 4vw !important;
+    
+    @include sm-tablet{
+      padding: .4vw 4vw !important;
+    }
+  }
+}
+
 .header {
   background-color: $primary-bg-color;
 

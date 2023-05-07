@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Button,
   useDisclosure,
@@ -9,11 +9,25 @@ function NavBar() {
   const btnRef = React.useRef();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     // Nav bar
 
     <>
-      <header id="header" className="header">
+      <header id="header" className={`header ${isSticky ? "sticky" : ""}`}>
         <div className="header-border">
           <div className="header-inner">
             <div className="header-display-desktop">
