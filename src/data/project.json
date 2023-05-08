@@ -1,4 +1,63 @@
 {
+    "lcu-feeding": {
+        "name": "LCU Feeding App",
+        "duration": "June 2022 - Present",
+        "type": "Real-world",
+        "skill": "Mobile Application",
+        "role": [
+            "Backend Engineer",
+            "Cloud Engineer"
+        ],
+        "url": "https://play.google.com/store/apps/details?id=com.lcufeeding.springbok",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683494530/portfolio/lcu-feeding-preview-2.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683360406/portfolio/lcu-home-preview.png",
+        "demo": {
+            "video": "https://youtu.be/LAhbDPYEOhI"
+        },
+        "brief": "The mobile application helps facilitate the use of the school cafeteria for Lead City University students. Approximately 30 million naira were saved by the school management ...",
+        "in-progress": false
+    },
+    "billings": {
+        "name": "Billings",
+        "duration": "August 2021 - April 2022",
+        "type": "Real-world",
+        "skill": "Mobile Application",
+        "role": [
+            "Backend Engineer"
+        ],
+        "url": "https://apps.apple.com/us/app/billings/id1607920535",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683180506/portfolio/billings-preview.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683216106/portfolio/billings-home-preview.png",
+        "demo": {
+            "video": "https://www.youtube.com/watch?v=-Kefwzw4hJ8"
+        },
+        "brief": "This platform addresses the challenge of transacting with large sums of money in order to obtain change for smaller transactions.",
+        "in-progress": false
+    },
+    "ban-qu": {
+        "name": "半区",
+        "duration": "Dec. 2021 - August 2022",
+        "type": "Real-world",
+        "skill": "Mobile Application",
+        "role": [
+            "Backend Engineer",
+            "Cloud Engineer"
+        ],
+        "url": "https://www.ban.zone/",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683493023/portfolio/ban-qu-preview-1.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-preview.png",
+        "demo": {
+            "image": [
+                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-1.png",
+                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-2.png",
+                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-1u-demo-3.png",
+                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-5.png",
+                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-4.png"
+            ]
+        },
+        "brief": "半区 is an AI-powered decentralized group space that enables users to socialize and discuss topics of interest with like-minded individuals without any social cost. It utilizes ...",
+        "in-progress": false
+    },
     "battery-reminder": {
         "name": "Battery Reminder",
         "duration": "Dec. 2020 - Dec. 2020",
@@ -10,7 +69,7 @@
         "url": "https://drive.google.com/file/d/1k7IOSwyrFU99E97Jv0yXbkuF4DmNBVzl/view?usp=share_link",
         "github": "https://github.com/Ndohjapan/Battery_Reminder",
         "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683132439/portfolio/battery_preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683133297/portfolio/image-from-rawpixel-id-3909390-original_piq0sx.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683132439/portfolio/battery_preview.png",
         "demo": {
             "image": [
                 "https://res.cloudinary.com/lcu-feeding/image/upload/v1683134271/portfolio/battery-demo-2.png",
@@ -18,6 +77,7 @@
             ],
             "video": "https://www.youtube.com/watch?v=ZyJiWjmO-yQ"
         },
+        "brief": "This is a desktop application that reminds users to unplug their laptop chargers once a certain percentage is reached, in order to prevent overcharging and potential damage to the battery.",
         "in-progress": false
     },
     "marist-pedia": {
@@ -34,6 +94,25 @@
         "demo": {
             "video": "https://www.youtube.com/watch?v=Bhr1gOwwPy8"
         },
+        "brief": "Marist Pedia is a desktop application designed to simulate popular TV quiz shows and assist students in preparing for similar events.",
+        "in-progress": false
+    },
+    "nkowa-okwu": {
+        "name": "Nkọwa Okwu",
+        "duration": "April 2023 - Present",
+        "type": "Real-world",
+        "skill": "Open Source API",
+        "role": [
+            "Software Engineer"
+        ],
+        "url": "https://nkowaokwu.com/home",
+        "github": "https://github.com/nkowaokwu/igbo_api",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683219007/portfolio/nkowa-okwu-preview.gif",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683219010/portfolio/nkowa-okwu-demo-1.gif",
+        "demo": {
+            "video": "https://www.youtube.com/watch?v=FTcRC_PZ5B0"
+        },
+        "brief": "Nkọwa okwu is a platform that creates Igbo language learning tools. The goal is to make Igbo education accessible and free. It is mostly powered by our open source Igbo API",
         "in-progress": false
     },
     "lcu-navigation": {
@@ -45,7 +124,7 @@
             "Web Developer"
         ],
         "url": "https://lcunavigation.netlify.app/",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683140269/portfolio/lcu-navigation-preview.png",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683495430/portfolio/lcu-navigation-preview-1.jpg",
         "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683213684/portfolio/lcu-navigation-home-preview.png",
         "demo": {
             "image": [
@@ -55,6 +134,7 @@
                 "https://res.cloudinary.com/lcu-feeding/image/upload/v1683140269/portfolio/lcu-navigation-preview.png"
             ]
         },
+        "brief": "This is a navigation system designed for visitors of Lead City University. It offers audio and visual guidance to navigate around the school premises in a simple and user-friendly way.",
         "in-progress": false
     },
     "customized-spreadsheet": {
@@ -71,12 +151,13 @@
         "demo": {
             "video": "https://www.youtube.com/watch?v=Lf2t1x7O2lw"
         },
+        "brief": "This software was developed out of a need while building the Marist Pedia application. It provides a custom solution for quiz auditors to create questions with complex mathematical symbols",
         "in-progress": false
     },
     "trans": {
         "name": "Trans",
         "duration": "March 2021 - May 2021",
-        "type": "Real-world",
+        "type": "Personal",
         "skill": "Mobile Application",
         "role": [
             "Python Developer",
@@ -95,64 +176,10 @@
                 "https://res.cloudinary.com/lcu-feeding/image/upload/v1683144509/portfolio/trans-demo-7.jpg"
             ]
         },
+        "brief": "This is project my team and I submitted for Google Student Developer Challenge .  A translation software that utilizes AI and ML to translate text, documents, images, and speech into various languages.",
         "in-progress": false
     },
-    "ban-qu": {
-        "name": "半区",
-        "duration": "Dec. 2021 - August 2022",
-        "type": "Real-world",
-        "skill": "Mobile Application",
-        "role": [
-            "Backend Engineer",
-            "Cloud Engineer"
-        ],
-        "url": "https://www.ban.zone/",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-preview.png",
-        "demo": {
-            "image": [
-                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-1.png",
-                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-2.png",
-                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-1u-demo-3.png",
-                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-5.png",
-                "https://res.cloudinary.com/lcu-feeding/image/upload/v1683179615/portfolio/ban-qu-demo-4.png"
-            ]
-        },
-        "in-progress": false
-    },
-    "billings": {
-        "name": "Billings",
-        "duration": "August 2021 - April 2022",
-        "type": "Real-world",
-        "skill": "Mobile Application",
-        "role": [
-            "Backend Engineer"
-        ],
-        "url": "https://apps.apple.com/us/app/billings/id1607920535",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683180506/portfolio/billings-preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683216106/portfolio/billings-home-preview.png",
-        "demo": {
-            "video": "https://www.youtube.com/watch?v=-Kefwzw4hJ8"
-        },
-        "in-progress": false
-    },
-    "lcu-feeding": {
-        "name": "LCU Feeding App",
-        "duration": "June 2022 - Present",
-        "type": "Real-world",
-        "skill": "Mobile Application",
-        "role": [
-            "Lead Backend Engineer",
-            "Lead Cloud Engineer"
-        ],
-        "url": "https://play.google.com/store/apps/details?id=com.lcufeeding.springbok",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683181132/portfolio/lcu-feeding-preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683360406/portfolio/lcu-home-preview.png",
-        "demo": {
-            "video": "https://youtu.be/LAhbDPYEOhI"
-        },
-        "in-progress": false
-    },
+
     "ai-quiz": {
         "name": "AI Quiz",
         "duration": "Jan, 2023 - Feb. 2023",
@@ -168,6 +195,7 @@
         "demo": {
             "video": "https://youtu.be/704kYqb0WD8"
         },
+        "brief": "This is a multi-user quiz web application the generates random questions with the help of Machine Learning models",
         "in-progress": false
     },
     "docker-chat": {
@@ -185,23 +213,7 @@
         "demo": {
             "video": "https://youtu.be/h8aOwgwQFxM"
         },
-        "in-progress": false
-    },
-    "nkowa-okwu": {
-        "name": "Nkọwa Okwu",
-        "duration": "April 2023 - Present",
-        "type": "Real-world",
-        "skill": "Open Source API",
-        "role": [
-            "Software Engineer"
-        ],
-        "url": "https://nkowaokwu.com/home",
-        "github": "https://github.com/nkowaokwu/igbo_api",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683219007/portfolio/nkowa-okwu-preview.gif",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683219010/portfolio/nkowa-okwu-demo-1.gif",
-        "demo": {
-            "video": "https://www.youtube.com/watch?v=FTcRC_PZ5B0"
-        },
+        "brief": "This is a dockerized real-time chat application built using different container images and deployed to Google Cloud Compute Engine",
         "in-progress": false
     },
     "node-box": {
@@ -213,8 +225,9 @@
             "Software Engineer"
         ],
         "url": "https://node-box.netlify.app/",
-        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683223361/portfolio/node-box-home-preview.png",
-        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683223361/portfolio/node-box-home-preview.png",
+        "preview-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683493544/portfolio/node-box-preview-1.png",
+        "home-url": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683493544/portfolio/node-box-preview-1.png",
+        "brief": "This is a web service designed for developers to deploy their node.js applications and dockerize their other services for cloud function implementation, in a simple and efficient manner.",
         "in-progress": true
     }
 }
