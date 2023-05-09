@@ -11,7 +11,9 @@ import {
 import { FaAndroid, FaAppStore } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 import Projects from "../../src/data/project.json";
-import "../../src/styles/project/ProjectInfo.scss";
+import "../../src/styles/Project/ProjectInfo.scss";
+
+
 
 // eslint-disable-next-line react/prop-types
 function ProjectInfo({ project }) {
