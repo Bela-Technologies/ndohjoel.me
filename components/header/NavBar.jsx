@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Button,
-  useDisclosure,
-} from "@chakra-ui/react";
+import { Button, useDisclosure } from "@chakra-ui/react";
 import SideBar from "./SideBar";
 
 function NavBar() {
@@ -82,7 +79,11 @@ function NavBar() {
                         <span></span>
                         <span></span>
                       </Button>
-                      <SideBar isOpen={isOpen} onClose={onClose} btnRef={btnRef} />
+                      <SideBar
+                        isOpen={isOpen}
+                        onClose={onClose}
+                        btnRef={btnRef}
+                      />
                     </nav>
                   </div>
                 </div>

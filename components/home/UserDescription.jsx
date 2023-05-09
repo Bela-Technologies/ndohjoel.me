@@ -17,7 +17,7 @@ function UserDescription() {
             <div className="content-header-link">
               <div className="content-header-link-wrapper">
                 <a href="/about-me" className="content-header-link-btn">
-                  more ...
+                  know more ...
                 </a>
               </div>
             </div>

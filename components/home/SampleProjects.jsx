@@ -36,7 +36,7 @@ function SampleProjects({ project, direction }) {
             <Stack flex="1" minW={{ base: "100%", md: "50%" }}>
               <CardBody>
                 <Heading size="md">
-                  <Link href={`/${project}`} isExternal>
+                  <Link href={`/project/${project}`}>
                     {Projects[project]["name"]}
                   </Link>
                   <Box h="1px" bg="gray.400" my="3" />

@@ -1,29 +1,33 @@
 {
     "ioi-rep": {
         "header": "Represented Nigeria at International Olympiad in Informatics 2018",
-        "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repellat obcaecati expedita modi? Aperiam eveniet quos quia architecto dolor minima quae, error laudantium, nostrum saepe cum inventore quidem eius nisi!",
+        "body": "As an esteemed representative of the International Olympiad in Informatics (IOI), I participated in a high-stakes programming event that brought together the world's most brilliant coders. Through a grueling selection process, I emerged as one of three finalists who had the honor of representing Nigeria at the prestigious IOI in 2018. The event was nothing short of exhilarating, as I was tasked with solving complex programming challenges within a limited time frame and space constraints. This rigorous test of my skills pushed me to the limit and allowed me to truly comprehend the industry standards for software engineering Furthermore, the IOI provided a unique opportunity for me to interact with influential figures in the tech industry. Meeting with these leaders gave me invaluable insight into the industry and allowed me to forge meaningful connections.",
         "image": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683233934/portfolio/ioi-image.gif",
-        "url": ""
+        "url": "/recognitions",
+        "brief": "The International Olympiad in Informatics (IOI) is an annual programming competition where coders from all over the world gather to solve challenging tasks within a time limit and space constraints. As a finalist and representative of Nigeria at the 2018 IOI, I gained valuable experience in software engineering industry standards and had the opportunity to network with influential figures in the tech industry."
     },
 
     "google-dev": {
         "header": "Certified Google Student Dev",
-        "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repellat obcaecati expedita modi? Aperiam eveniet quos quia architecto dolor minima quae, error laudantium, nostrum saepe cum inventore quidem eius nisi!",
+        "body": "After careful consideration, my team and I participated in the Google Student Developer Challenge and had only 21 days to develop a cutting-edge translation software, utilizing Google's powerful APIs, AI, and ML algorithms. We successfully created a software that enables travelers to seamlessly interact with merchants in their tourist locations, breaking down communication barriers. Additionally, our software helps international students integrate into their host school's culture. Our project stood out amongst 1900 schools and colleges, and was recognized as one of the best, thanks to our innovative approach and dedication to excellence.",
         "image": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683234049/portfolio/google-dev.jpg",
-        "url": ""
+        "url": "/recognitions",
+        "brief":"My team created a Google Student Developer Challenge project: a translation software that enables seamless communication between tourists and merchants and helps international students adapt to new cultures. Our project was recognized as one of the best among 1900 schools and colleges."
     },
 
     "nkowa-okwu": {
         "header": "Volunteer for Nkọwa Okwu",
-        "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repellat obcaecati expedita modi? Aperiam eveniet quos quia architecto dolor minima quae, error laudantium, nostrum saepe cum inventore quidem eius nisi!",
+        "body": "Nkọwa okwu is a technology company that provides accessible and robust tools for learning the Igbo language.Nkọwa okwu leverages the Igbo API that hosts over 4,500 words, 14,500 example Igbo sentences, and 4,500 audio pronunciations and 17 dialectal variations. As a volunteering developer, I am currently working as a developer to enhance the usability of the Igbo API for fellow developers who will be utilizing the API. My goal is to create a user-friendly dashboard that provides comprehensive information.",
         "image": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683219007/portfolio/nkowa-okwu-preview.gif",
-        "url": "https://github.com/nkowaokwu/igbo_api"
+        "url": "https://github.com/nkowaokwu/igbo_api",
+        "brief": "Nkọwa okwu is a platform that creates Igbo language learning tools. The goal is to make Igbo education accessible and free. It is mostly powered by our open source Igbo API"
     },
 
     "ar-vr": {
         "header": "Volunteer for VR/AR Nigerian Chapter",
-        "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repellat obcaecati expedita modi? Aperiam eveniet quos quia architecto dolor minima quae, error laudantium, nostrum saepe cum inventore quidem eius nisi!",
-        "image": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683234699/portfolio/vr-ar-preview.png/",
-        "url": "https://www.thevrara.com/"
+        "body": "The VR/AR Association (VRARA) is an esteemed global industry association for Virtual & Augmented Reality, aimed at fostering collaborative growth, research, education, and developing industry best practices. As a zealous volunteer of the Nigerian chapter, I passionately assist in organizing various events, while also gradually expanding my skills in AR/VR alongside my software engineering expertise.",
+        "image": "https://res.cloudinary.com/lcu-feeding/image/upload/v1683234699/portfolio/vr-ar-preview.png",
+        "url": "https://www.thevrara.com/",
+        "brief": "The VR/AR Association is a global industry association that fosters collaboration between companies in virtual and augmented reality. As a volunteer for the Nigerian chapter, I help organize events and learn new skills in AR/VR."
     }
 }

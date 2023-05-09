@@ -75,9 +75,17 @@ $primary-bg-color: #fff;
                 font-size: .85rem;
             }
 
+            
             a{
                 padding: 0;
-                text-decoration: underline;
+
+                @include sm-mobile(){
+                    font-size: .6rem;
+                }
+            }
+
+            .underline{
+                margin: 0;
             }
         }
     }

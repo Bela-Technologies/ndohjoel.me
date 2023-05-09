@@ -32,7 +32,7 @@ function SampleRecognition() {
                       <Heading size="md">
                         {Recognitions["nkowa-okwu"].header}
                       </Heading>
-                      <Text>{Recognitions["nkowa-okwu"].body}</Text>
+                      <Text>{Recognitions["nkowa-okwu"].brief}</Text>
                     </Stack>
                   </CardBody>
                   <Divider />
@@ -50,7 +50,7 @@ function SampleRecognition() {
                       <Heading size="md">
                         {Recognitions["google-dev"].header}
                       </Heading>
-                      <Text>{Recognitions["google-dev"].body}</Text>
+                      <Text>{Recognitions["google-dev"].brief}</Text>
                     </Stack>
                   </CardBody>
                   <Divider />
@@ -68,7 +68,7 @@ function SampleRecognition() {
                       <Heading size="md">
                         {Recognitions["ioi-rep"].header}
                       </Heading>
-                      <Text>{Recognitions["ioi-rep"].body}</Text>
+                      <Text>{Recognitions["ioi-rep"].brief}</Text>
                     </Stack>
                   </CardBody>
                   <Divider />

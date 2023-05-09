@@ -1,4 +1,5 @@
-import { Grid, GridItem } from "@chakra-ui/react";
+/* eslint-disable react/no-unknown-property */
+import { Box, Grid, GridItem } from "@chakra-ui/react";
 import "../../src/styles/home/Banner.scss";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -42,6 +43,7 @@ function Footer() {
                 <a href="mailto:ndohjoelmbj16@gmail.com" >
                   ndohjoelmbj16@gmail.com
                 </a>
+                <Box className="underline" h="1px" bg="gray.400" my="3" />
               </h5>
             </div>
           </GridItem>

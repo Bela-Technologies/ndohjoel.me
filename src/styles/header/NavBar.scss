@@ -1,4 +1,6 @@
 // variables.scss
+$highligh-color: rgb(220, 219, 219);
+$hover-color: rgb(170, 170, 170);
 $primary-text-color: #000;
 $primary-bg-color: #fff;
 
@@ -46,6 +48,11 @@ $primary-bg-color: #fff;
       padding: .4vw 4vw !important;
     }
   }
+}
+
+.display-border{
+  border-bottom: 1.6px solid $hover-color;
+  border-radius: 0;
 }
 
 .header {

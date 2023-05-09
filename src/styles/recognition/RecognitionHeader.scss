@@ -1,0 +1,48 @@
+// variables.scss
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+$highligh-color: rgb(220, 219, 219);
+$hover-color: rgb(170, 170, 170);
+$primary-text-color: #000;
+$primary-bg-color: #fff;
+
+
+@mixin sm-mobile {
+    @media screen and (max-width: 376px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin sm-tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lg-tablet {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin lg-laptop {
+    @media screen and (min-width: 1201px) {
+        @content;
+    }
+}
+
+.recognition-title-wrapper{
+    font-size: calc((4.5 - 1) * 1.2vw + 1rem) !important;
+}

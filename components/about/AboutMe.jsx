@@ -30,7 +30,7 @@ function AboutMe() {
 
                     <h4>I like to <a href={Socials.twitter}>tweet</a> about tech, business and football</h4>
 
-                    <h4>If you’re looking for my professional experience, don’t worry, I got <a href={Socials.linkedIn}>LinkedIn.</a></h4>
+                    <h4>If you’re looking for my professional experience, don’t worry, I got <a href={Socials.linkedIn}>LinkedIn </a> and I publish Tech <a href={Socials.dev}>Articles</a> as well</h4>
                 </Text>
               </CardBody>
             </Stack>

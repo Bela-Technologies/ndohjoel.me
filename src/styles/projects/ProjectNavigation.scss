@@ -7,6 +7,12 @@ $primary-text-color: #000;
 $primary-bg-color: #fff;
 
 
+@mixin vsm-mobile {
+    @media screen and (max-width: 300px) {
+        @content;
+    }
+}
+
 @mixin sm-mobile {
     @media screen and (max-width: 376px) {
         @content;
@@ -123,6 +129,10 @@ $primary-bg-color: #fff;
 
                     @include sm-mobile {
                         font-size: .8rem !important;
+                    }
+
+                    @include vsm-mobile(){
+                        font-size: .7rem !important;
                     }
 
                 }

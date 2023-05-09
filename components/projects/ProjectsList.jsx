@@ -40,7 +40,7 @@ function ProjectsList({ projectType }) {
                           />
                           <Stack mt="6" spacing="3">
                             <Heading size="md">
-                              <Link>{project[1].name}</Link>
+                              <Link href={`/project/${project[0]}`}>{project[1].name}</Link>
                               <Badge marginLeft=".5rem" colorScheme="green">
                                 {project[1]["in-progress"] === true
                                   ? "In Progress"
