@@ -33,14 +33,18 @@ function ProjectsList({ projectType }) {
                     <div key={project[0]} className="flex-cards">
                       <Card maxW="sm" style={{ width: "100%" }}>
                         <CardBody>
-                          <Image
-                            src={project[1]["preview-url"]}
-                            alt={project[1].name}
-                            borderRadius="lg"
-                          />
+                          <Link href={`/project/${project[0]}`}>
+                            <Image
+                              src={project[1]["preview-url"]}
+                              alt={project[1].name}
+                              borderRadius="lg"
+                            />
+                          </Link>
                           <Stack mt="6" spacing="3">
                             <Heading size="md">
-                              <Link href={`/project/${project[0]}`}>{project[1].name}</Link>
+                              <Link href={`/project/${project[0]}`}>
+                                {project[1].name}
+                              </Link>
                               <Badge marginLeft=".5rem" colorScheme="green">
                                 {project[1]["in-progress"] === true
                                   ? "In Progress"
@@ -55,7 +59,7 @@ function ProjectsList({ projectType }) {
                             templateRows="repeat(1, 1fr)"
                             templateColumns="repeat(5, 1fr)"
                           >
-                            <GridItem rowSpan={2} colSpan={1} >
+                            <GridItem rowSpan={2} colSpan={1}>
                               <p>Role(s)</p>
                             </GridItem>
                             <GridItem colSpan={4}>
